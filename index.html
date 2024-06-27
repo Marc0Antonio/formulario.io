@@ -1,1 +1,68 @@
-dsajhdashd
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="style.css">
+    <title>Criar conta</title>
+</head>
+<body>
+    <form>
+        <div>
+            <label for="name">Nome:</label>
+            <input type="text" id="name" name="name" required>
+        </div>
+        
+        <div>
+            <label for="email">Email:</label>
+            <input type="text" id="email" name="email" required>
+        </div>
+        
+        <div>
+            <label for="country">País:</label>
+            <select id="country" name="country">
+                <option value="brasil">Brasil</option>
+                <option value="eua">Estados Unidos</option>
+                <option value="canada">Canadá</option>
+                <option value="outro">Outro</option>
+            </select>
+        </div>
+        
+        <br>
+        
+        <div>
+            <label>Sexo:</label>
+            <br>
+            <br>
+            <label for="male">Masculino</label>
+            <input type="radio" id="gender" name="gender" value="male">
+            
+            <label for="female">Feminino</label>
+            <input type="radio" id="gender" name="gender" value="female">
+        </div>
+        
+        <br>
+    
+        <br>
+        
+        <div>
+            <br>
+            <input type="checkbox" id="terms" name="terms" value="agree">
+            <label for="terms">concordo com os <a href="#">termos de uso</a></label>
+        <br>
+            <input type="checkbox" id="terms" name="terms" value="agree">
+            <label for="terms">Gostaria de  <a href="#">receber as novidades</a></label>
+        <br>
+        <br>
+        <br>
+        </div>
+        <div>
+            <input type="submit" value="Criar Conta">
+        </div>
+    </form>
+</body>
+</html>
+
+
+
+
